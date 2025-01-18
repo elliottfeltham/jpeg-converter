@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Folder paths
 const inputFolder = './input-images';
 const outputFolder = './output-images';
 
@@ -24,6 +23,5 @@ const clearFolder = (folderPath) => {
     }
 };
 
-// Clear the input and output folders
 clearFolder(inputFolder);
 clearFolder(outputFolder);

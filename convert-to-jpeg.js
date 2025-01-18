@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-// Input and output folder paths
 const inputFolder = './input-images';
 const outputFolder = './output-images';
 
@@ -38,5 +37,4 @@ const convertToJpeg = async () => {
     }
 };
 
-// Run the converter
 convertToJpeg();
