@@ -1,4 +1,3 @@
-# jpeg-converter
 # JPEG Converter
 
 A simple **jpeg converter** for photos taken on my iPhone.
